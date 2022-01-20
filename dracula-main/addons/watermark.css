@@ -1,0 +1,16 @@
+/* watermark */
+@import url("https://x6r.github.io/addons/DiscordFont.css"); /* Discord Font */
+
+.wordmark-2u86JB svg {
+  width: 0px;
+}
+
+.wordmark-2u86JB::after {
+  position: absolute;
+  font-family: "Discord";
+  content: "Hello? Hello, hello? Uhh, I wanted to record a message for you... to help you get settled in on your first night. Um, I actually worked in that office before you. I’m... finishing up my last week now, as a matter of fact, so... I know it can be a bit overwhelming, but I’m here to tell you: there’s nothing to worry about. Uh, you’ll do fine! So... let’s just focus on getting you through your first week. Okay?";
+  font-size: 14px;
+  background: var(--dracula-accent); /* #72767d for default color */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
